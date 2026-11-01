@@ -4,7 +4,7 @@
 
 ## End-to-end flow: arrows show sequential dependencies; branches run in parallel
 
-\`\`\`mermaid
+```mermaid
 flowchart LR
   A([Start: CLE A236 cover search]) --> B[Confirm 2024 CLE 300 4MATIC Cabriolet A236, parking type, outdoor exposure]
   B --> C[Record mandatory 15+ days used outdoors / FULL refund with no fees]
@@ -91,7 +91,7 @@ flowchart LR
   AK -- Yes --> AL([Close: refundable test completed])
   AK -- No --> AM[Escalate to merchant support with written terms, then marketplace/payment dispute if warranted]
   AM --> AJ
-\`\`\`
+```
 
 ## Priority path
 1. **Today:** confirm vehicle variant and where the car will actually sit. Send the same fit + used-return questions to merchants simultaneously.
